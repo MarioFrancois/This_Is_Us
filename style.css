@@ -34,6 +34,7 @@ justify-content: space-between;
     text-decoration: none;
     color: rgb(5, 5, 5);
     text-transform: uppercase;
+    display: block;
 }
 
 .navbar ul li::after{
@@ -49,4 +50,39 @@ justify-content: space-between;
 
 .navbar ul li:hover::after{
     width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: auto;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
